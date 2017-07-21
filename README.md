@@ -25,7 +25,7 @@ vagrant ssh
 ```
 or
 ```
-vagrant ssh $ID or $NAME
+vagrant ssh $ID or $VM_NAME
 ```
 > Get ID/Name from vagrant global-status command
 
@@ -36,8 +36,15 @@ vagrant global-status
 
 ### How-to delete a VM in your Vagrant and VirtualBox
 ```
-vagrant destroy 
+vagrant destroy $ID or $VM_NAME
 ```
 > This option will delete files from your disk, but the Boxe of debian-jessie64-ansible still in local machine
 
 > Get ID/Name from vagrant global-status command
+
+### How-to delete all VM in your Vagrant and VirtualBox
+```
+vagrant destroy
+```
+> This option will delete files from your disk, but the Boxe of debian-jessie64-ansible still in local machine
+
