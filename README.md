@@ -19,7 +19,7 @@ vagrant up
 ```
 
 ## Guides
-### Access your VM
+### How-to Access your VM
 ```
 vagrant ssh
 ```
